@@ -1,0 +1,6 @@
+start: v_A
+end: v_A, c_B, v_D
+v_A: start, end, c_B
+v_D: end, c_B
+v_C: c_B
+c_B: v_A, v_C, v_D, end

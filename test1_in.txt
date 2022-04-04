@@ -1,0 +1,8 @@
+start: v_G, c_A, v_E
+c_A: start, v_G, v_E
+c_B: v_G, v_E, v_D, v_H, end
+v_G: start, c_A, c_B
+v_E: start, c_A, c_B
+v_H: c_B, end
+v_D: c_B, end
+end: c_B, v_D, v_H
